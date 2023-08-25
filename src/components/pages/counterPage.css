@@ -1,0 +1,32 @@
+
+.counter-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-num{
+    font-size: 200px;
+}
+.btn_c {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width:  120px;
+    font-size: 25px;
+    margin: 0px 0px 0px 15px;
+}
+.btn--success {
+    background-color: #5fc08b;
+    color: #fff;
+}
+.btn--primary {
+    background-color: #c0935f;
+    color: #fff;
+}
+.btn-control{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
