@@ -1,4 +1,4 @@
-Travel Website App:
+Travel Website App -
 -------------------
 
 Travel website provides travel reviews, trip fares, or a combination of both. 
