@@ -1,0 +1,90 @@
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: rgb(168, 161, 161);
+}
+.sub-main{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: #f7f5f5;
+}
+.imgs{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+.container-image{
+    border-radius: 150px;
+    display: flex;
+    height: 115px;
+    width: 155px;
+}
+.profile{
+    height: 50%;
+    width: 50%;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding-left: 40px;
+}
+input:hover {
+    transition: all 0.5s ease-out;
+    background: #f3eeee;
+    transition: 250ms;
+  }
+.second-input{
+    padding-top: 20px;
+}
+button{
+    width: 300px; 
+    height: 50px;
+    border-radius: 60px;
+    background-color: #136297;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+button:hover {
+  transition: all 0.5s ease-out;
+  background: #b49e9e;
+  color: #242424;
+  transition: 250ms;
+}
+.login-button{
+    padding-top: 20px;
+}
+.login-link{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.link-text{
+    color:blue;
+    text-decoration: none;
+}
+@media screen and (max-width: 820px) {
+    .sub-main{
+        display: flex;
+        justify-content: center;
+        height: 550px;
+        width: 75%;
+        box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+        padding-top: 30px;
+        border-radius: 60px;
+        background-color: white;
+    }
+}
