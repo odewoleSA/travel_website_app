@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './Login.css';
 import profile from '../../images/Profile_img.jpg';
-import login_img from '../../images/login_img.jpg'
+import login_img from '../../images/lock_img.png'
 import { Link } from 'react-router-dom';
 
 function Login() { 
