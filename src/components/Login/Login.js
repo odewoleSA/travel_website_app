@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './Login.css';
 import profile from '../../images/Profile_img.jpg';
-import welcome_img from '../../images/welcome_img.png'
+import login_img from '../../images/login_img.jpg'
 import { Link } from 'react-router-dom';
 
 function Login() { 
@@ -56,7 +56,7 @@ function Login() {
         <div className='right-side'>
             <div className='right-text'>Welcome Back!!</div>
             <div className='right-img'>
-                <img src={welcome_img} alt="welcome image" id="welcome_img" />
+                <img src={login_img} alt="welcome image" id="welcome_img" />
             </div>
         </div>
       </div>
