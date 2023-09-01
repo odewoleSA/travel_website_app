@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import './Login.css';
+import './SignIn.css';
 import profile from '../../images/Profile_img.jpg';
 import login_img from '../../images/lock_img.png'
 import { Link } from 'react-router-dom';
@@ -21,6 +21,7 @@ function Login() {
                 </div>   
             </div>
             <div>
+                <form action="">
                 <div className=''>
                     <label for="name" >Username</label>
                     <input 
@@ -28,6 +29,7 @@ function Login() {
                         placeholder='Enter your Username' 
                         className='name' 
                         id="name" 
+                        name="username"
                         value={usernameval} 
                         onChange={(e) => setusername(e.target.value)}
                     />
@@ -37,15 +39,17 @@ function Login() {
                     <input 
                         type="password" 
                         placeholder='Enter Password' 
-                        className='password' 
+                        className='password_in' 
                         id="password" 
+                        name="password"
                         value={passval} 
                         onChange={(e) => setpass(e.target.value)}
                     />
                 </div>
                 <div className='login-button'>
-                    <button className='btn-sign'>Sign in</button>
+                    <button className='btn-sign'>Sign In</button>
                 </div> 
+                </form>
                 <div className='login-link'>
                     <p>
                         <Link to="#" className='link-text' id="forgot_text">Forget Password</Link>

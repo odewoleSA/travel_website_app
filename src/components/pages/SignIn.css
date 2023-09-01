@@ -25,7 +25,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 label{
     display: block;
@@ -152,6 +151,15 @@ input:focus{
     }
     .right-side{
         display: none;
+    }
+    .left-side{
+        box-shadow: none;
+    }
+    .imgs{
+        margin-top: -2rem;
+    }
+    .alt-login-btn{
+        padding: 0.1rem 6rem;
     }
     .login-link{
         padding-left: 3rem;

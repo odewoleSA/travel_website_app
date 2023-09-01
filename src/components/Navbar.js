@@ -78,8 +78,8 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--primary' buttonSize={5} btnLink='/login'>Sign in</Button>}
-          {button && <Button buttonStyle='btn--outline' buttonSize={5} btnLink='/sign-up'>Sign up</Button>}
+          {button && <Button buttonStyle='btn--primary' buttonSize={5} btnLink='/sign-in'>Sign In</Button>}
+          {button && <Button buttonStyle='btn--outline' buttonSize={5} btnLink='/sign-up'>Sign Up</Button>}
         </div>
       </nav>
     </>

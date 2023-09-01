@@ -5,8 +5,8 @@ import './App.css';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
-import Register from './components/Register/Register';
-import Login from './components/Login/Login';
+import SignIn from './components/pages/SignIn';
+import SignUp from './components/pages/SignUp';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
           <Route path="/travel_website_app" exact element={<Home />} />
           <Route path="/services" exact element={<Services />} />
           <Route path="/products" exact element={<Products />} />
-          <Route path="/sign-up" exact element={<Register />} />
-          <Route path="/login" exact element={<Login />} />
+          <Route path="/sign-in" exact element={<SignIn />} />
+          <Route path="/sign-up" exact element={<SignUp />} />
         </Routes>
         <Footer />
       </Router>
