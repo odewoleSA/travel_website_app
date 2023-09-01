@@ -1,5 +1,5 @@
 .main{
-     min-height: 100vh;
+     min-height: 70vh;
      min-width: 100vw;
      overflow: hidden;
      background: linear-gradient(to right, rgb(207, 207,207) 50%, rgb(216, 218, 206) 50%);
@@ -75,7 +75,7 @@ input:focus{
     background: #136297;
 }
 .imgs{
-    margin-top: -12rem;
+    margin-top: -5rem;
     justify-content: center;
     display: flex;
     padding-bottom: 20px;
@@ -118,13 +118,33 @@ input:focus{
      margin: 0rem auto;
      border-radius: 10px;
      padding-top: 20px;
-     
 }
 #welcome_img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5%;
+}
+.alt-login-text{
+    padding-top:2rem;
+}
+#hr_line1{
+    width: 42%;
+    float: left;
+}
+#hr_line2{
+    width: 40%;
+    float: right;
+}
+#or-span{
+    padding: 1rem;
+}
+.alt-login-btn{
+    padding: 0.1rem 6rem;
+}
+.btn_2:hover{
+    box-shadow: 0.5px 0.5px 6px -1px black;
+    transform: translateY(-5px);
 }
 @media screen and (max-width: 820px) {
     .sub-main{

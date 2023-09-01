@@ -1,0 +1,33 @@
+.container{
+    min-height: 50vh;
+    min-width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(207, 207,207) 50%, rgb(216, 218, 206) 50%);
+}
+.app-container{
+   height: 75vh;
+   width: 30%;
+   background-color: #f1eded ;
+   border-radius: 1rem;
+   margin:2rem auto;
+   box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58,57,57); 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.account{
+    text-align: center;
+    padding: 2rem;
+}
+input{
+    display: block;
+    border: none;
+    height: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 1rem;
+    color:gray;
+    transition: all 0.1s ease-in-out;
+    border-radius: 15px;
+}

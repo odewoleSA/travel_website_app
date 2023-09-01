@@ -3,6 +3,8 @@ import './Login.css';
 import profile from '../../images/Profile_img.jpg';
 import login_img from '../../images/lock_img.png'
 import { Link } from 'react-router-dom';
+import { HeroButton } from '../HeroButton';
+import '../HeroSection.css';
 
 function Login() { 
 
@@ -50,6 +52,32 @@ function Login() {
                         <span className='link-text'> | </span>
                         <Link to="/sign-up" className='link-text' id="sign_text">Sign up</Link>
                     </p>
+                </div>
+            </div>
+            <div className='alt-login-text'>
+                <div className='or-text'>
+                    <hr id="hr_line1" /> <span id="or-span">Sign in with</span><hr id="hr_line2"/>
+                </div>
+            </div>
+            <div className='alt-login-btn'>
+                <div className='hero-btns'>
+                    <HeroButton
+                        className='btn_2'
+                        buttonStyle='btn--normal'
+                        buttonSize='btn--large'
+                        btnLink=''
+                    >
+                    <i className='fab fa-google' /> Google
+                    </HeroButton>
+                    <HeroButton
+                        className='btn_2'
+                        buttonStyle='btn--normal'
+                        buttonSize='btn--large'
+                        onClick={console.log('hey')}
+                        btnLink=''
+                    >
+                    <i className='fab fa-facebook' /> Facebook 
+                    </HeroButton>
                 </div>
             </div>
         </div>
