@@ -63,12 +63,17 @@ function Login() {
                     <hr id="hr_line1" /> <span id="or-span">Sign in with</span><hr id="hr_line2"/>
                 </div>
             </div>
+            <div className='alt-login-text_mobile'>
+                <div className='or-text'>
+                    <span id="or-span">Sign in with</span>
+                </div>
+            </div>
             <div className='alt-login-btn'>
                 <div className='hero-btns'>
                     <HeroButton
                         className='btn_2'
                         buttonStyle='btn--normal'
-                        buttonSize='btn--large'
+                        buttonSize='btn--medium'
                         btnLink=''
                     >
                     <i className='fab fa-google' /> Google
@@ -76,7 +81,7 @@ function Login() {
                     <HeroButton
                         className='btn_2'
                         buttonStyle='btn--normal'
-                        buttonSize='btn--large'
+                        buttonSize='btn--medium'
                         onClick={console.log('hey')}
                         btnLink=''
                     >

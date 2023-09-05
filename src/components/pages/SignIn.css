@@ -104,11 +104,14 @@ input:focus{
 #forgot_text:hover,#sign_text:hover{
     color: #4dd6b6;
 }
+/* .right-side{
+    background: url('../../images/lock_img.png');
+} */
 .right-text{
     text-align: center;
     padding: 2rem;
     font-size: 25px;
-    color:rgb(80, 80, 128);
+    color:rgb(104, 104, 231);
     /* font-weight: bold; */
 }
 .right-img{
@@ -126,6 +129,9 @@ input:focus{
 }
 .alt-login-text{
     padding-top:2rem;
+}
+.alt-login-text_mobile{
+    display: none;
 }
 #hr_line1{
     width: 42%;
@@ -159,10 +165,23 @@ input:focus{
         margin-top: -2rem;
     }
     .alt-login-btn{
-        padding: 0.1rem 6rem;
+        padding: 0.1rem 3.5rem;
     }
     .login-link{
         padding-left: 3rem;
         font-size: 12px;
     }
+    .alt-login-text{
+        display: none;
+    }
+    .alt-login-text_mobile{
+        padding-top:2rem;
+        display: block;
+    }
+    #or-span{
+        padding: 35%;
+    }
+    /* .alt-login-text_mobile{
+        display: none;
+    } */
 }

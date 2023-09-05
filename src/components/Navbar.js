@@ -11,7 +11,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 820) {
       setButton(false);
     } else {
       setButton(true);
@@ -61,11 +61,11 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to='/login'
+                to='/sign-in'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                 Log In
+                 Sign In
               </Link>
             </li>
             <li>
