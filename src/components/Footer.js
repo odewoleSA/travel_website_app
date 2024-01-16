@@ -4,6 +4,10 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+
+  let date_val = new Date();
+  let year_val = date_val.getFullYear();
+
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -68,7 +72,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2023</small>
+          <small class='website-rights'>TRVL © {year_val}</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
