@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-=======
-## Travel Website App -
-
 <b>Travel website provides travel reviews, trip fares, or a combination of both.
 
 Over 1.5 billion people book travel per year, 70% of which is done online.
@@ -14,4 +9,3 @@ The Website look at where the user is going and pair them with other places they
     <img src="./src/images/travel-page2.JPG" width="350"/>
     <img src="./src/images/travel-page3.JPG" width="350"/>
 </div>
->>>>>>> b825159 (update ReadME and footer)
